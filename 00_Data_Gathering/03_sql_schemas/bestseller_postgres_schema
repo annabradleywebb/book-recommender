@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS NYTBestsellers3   
+(id 				int,
+rank              	int,         
+rank_last_week       int,         
+weeks_on_list        int,         
+primary_isbn10       text,        
+primary_isbn13       text,        
+publisher            text,        
+description          text,        
+price                int,        
+title                text,        
+author               text,        
+contributor          text,        
+contributor_note     text,        
+age_group            text,        
+book_review_link     text,        
+first_chapter_link   text,        
+sunday_review_link   text,        
+article_chapter_link text,        
+isbns                text,        
+date                 date
+    );

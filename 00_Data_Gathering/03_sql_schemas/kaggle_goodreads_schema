@@ -1,0 +1,19 @@
+ CREATE TABLE IF NOT EXISTS KaggleGoodreads    
+(index 				int,
+ gid                  text,
+  title               text,
+  authors             text,
+  description         text,
+  avg_rating          text,
+  rating_dist         text,
+  ratings_count       text,
+  text_reviews_count  text,
+  num_pages           text,
+  publication_date    text,
+  publisher           text,
+  language_code       text,
+  edition_information text,
+  isbn                text,
+  isbn13              text,
+  link                text
+ );

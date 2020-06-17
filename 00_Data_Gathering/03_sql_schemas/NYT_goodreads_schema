@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS NYTGoodreads    
+(index 				int,
+gid                 int ,
+ title                text ,
+ authors              text ,
+ description          text ,
+ avg_rating           float,
+ rating_dist          text ,
+ ratings_count        int  ,
+ text_reviews_count   int  ,
+ num_pages            float,
+ popular_shelves      text ,
+ publication_date     text ,
+ publisher            text ,
+ language_code        text ,
+ edition_information  text ,
+ isbn                 text ,
+ isbn13               bigint  ,
+ link                 text 
+    );
